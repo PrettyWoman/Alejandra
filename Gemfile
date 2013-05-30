@@ -2,7 +2,7 @@
 
 gem 'rails', '3.2.13'
 
-gem 'bootstrap-sass', '2.3.1.0'
+gem 'bootstrap-sass', '2.1'
 
 group :development, :test do
 gem 'sqlite3', '1.3.7'
@@ -28,7 +28,7 @@ gem 'rb-fchange','0.0.5'
 gem 'rb-notifu', '0.0.4'
 gem 'win32console', '1.3.0'
 end
-
-group :production do
 gem 'pg', '0.12.2'
+group :production do
+
 end
